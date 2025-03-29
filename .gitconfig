@@ -1,3 +1,5 @@
+[core]
+	excludesfile = /Users/tom/.gitignore
 [user]
     name = Thomas Daley
     email = tomdaley92@gmail.com
