@@ -1,0 +1,10 @@
+[user]
+    name = Thomas Daley
+    email = tomdaley92@gmail.com
+    signingKey = 53590CD5B7BDC149
+[commit]
+    gpgsign = true
+[gpg]
+    program = /opt/homebrew/bin/gpg
+[credential]
+    helper = store
