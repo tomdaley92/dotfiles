@@ -15,7 +15,7 @@ function brew-restore () {
 alias ll="ls -alGh"
 
 # https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles/
-alias dotfiles='/usr/bin/git --git-dir=$HOME/GitHub/dotfiles --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/GitHub/dotfiles.git --work-tree=$HOME'
 
 # https://starship.rs/
 eval "$(starship init zsh)"
