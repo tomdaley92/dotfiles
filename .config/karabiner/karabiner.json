@@ -124,7 +124,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper + {U, O} = {Home, End}",
+                        "description": "Hyper + {U, O} = {Ctrl+A, Ctrl+E}",
                         "manipulators": [
                             {
                                 "conditions": [
