@@ -138,7 +138,10 @@
                                     "key_code": "u",
                                     "modifiers": { "optional": ["shift"] }
                                 },
-                                "to": [{ "key_code": "home" }],
+                                "to": {
+                                    "key_code": "a",
+                                    "modifiers": "left_control"
+                                },
                                 "type": "basic"
                             },
                             {
@@ -153,7 +156,10 @@
                                     "key_code": "o",
                                     "modifiers": { "optional": ["shift"] }
                                 },
-                                "to": [{ "key_code": "end" }],
+                                "to": {
+                                    "key_code": "e",
+                                    "modifiers": "left_control"
+                                },
                                 "type": "basic"
                             }
                         ]
