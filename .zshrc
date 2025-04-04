@@ -19,3 +19,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/GitHub/dotfiles --work-tree=$HOME'
 
 # https://starship.rs/
 eval "$(starship init zsh)"
+
+# zsh-autosuggestions
+export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+eval $(thefuck --alias)
