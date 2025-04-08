@@ -1,4 +1,4 @@
-# Add custom python binaries to the front
+# Add preferred python binaries to the front
 export PATH=$HOME/.local/bin:/opt/homebrew/opt/python@3.12/libexec/bin:$PATH
 
 # Sonos
@@ -13,9 +13,6 @@ function brew-restore () {
     brew bundle install --file $HOME/.brewfile
 }
 
-# Type 'fuck' to fix mistyped commands
-eval $(thefuck --alias)
-
 # Oh My ZShell
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
@@ -28,6 +25,8 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 
+# Type 'fuck' to fix mistyped commands
+eval $(thefuck --alias)
 
 alias ll="ls -alGh"
 
