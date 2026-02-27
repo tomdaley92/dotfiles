@@ -10,3 +10,5 @@
     program = /opt/homebrew/bin/gpg
 [credential]
     helper = store
+[alias]
+	prune-local-branches = "!git fetch origin --prune && git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -d"
