@@ -11,4 +11,4 @@
 [credential]
     helper = store
 [alias]
-	prune-local-branches = "!git fetch origin --prune && git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -d"
+	prune-local-branches = "!git fetch --prune && git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -D"
