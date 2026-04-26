@@ -8,7 +8,9 @@ brew "docker", link: false
 brew "gh"
 brew "gnupg"
 brew "pkgconf"
+brew "helm"
 brew "iperf3"
+brew "kubernetes-cli"
 brew "lazygit"
 brew "mas"
 brew "nasm"
@@ -51,6 +53,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "wine-stable"
 cask "zoom"
+mas "CrystalFetch", id: 6454431289
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

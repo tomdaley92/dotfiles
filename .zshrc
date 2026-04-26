@@ -1,5 +1,5 @@
-# Add preferred python binaries to the front
-export PATH=$HOME/.local/bin:/opt/homebrew/opt/python@3.12/libexec/bin:$PATH
+# Add other bin install locations
+export PATH=$HOME/.local/bin:/opt/homebrew/bin/:$PATH
 
 # Sonos
 export SPKR='Media Room'
