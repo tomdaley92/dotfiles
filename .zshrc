@@ -1,5 +1,5 @@
 # Add other bin install locations
-export PATH=$HOME/.local/bin:/opt/homebrew/bin/:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # Sonos
 export SPKR='Media Room'
